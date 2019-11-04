@@ -9,8 +9,6 @@ const userReducer = (state = initalState, action) => {
 
   switch (type) {
     case SET_CURRENT_USER:
-      console.log('from reducer', payload);
-
       return {
         ...state,
         currentUser: payload
